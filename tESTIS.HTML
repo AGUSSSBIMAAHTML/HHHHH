@@ -1,0 +1,233 @@
+\<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Hidup: Arsitektur untuk Kehidupan Modern</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background body berwarna penuh */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warna latar belakang gradasi */
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        /* Navigasi utama */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        nav a:hover {
+            background-color: #ff7e5f;
+            transform: scale(1.1);
+            border-radius: 5px;
+        }
+
+        /* Layout utama */
+        .main-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 15px;
+            width: 250px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .sidebar h3 {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+            color: #ff7e5f;
+        }
+
+        /* Konten utama */
+        .content {
+            flex-grow: 1;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .content ul li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        /* Efek hover pada link di footer */
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #ff7e5f;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sidebar {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .content {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Ruang Hidup: Arsitektur untuk Kehidupan Modern</h1>
+        <p>Website ini menunjukkan para Arsitektur muda berbakat</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="AGUS.HTML">Tentang</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- Konten Utama -->
+    <div class="main-container">
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="home">
+            <h3>Menu Sidebar</h3>
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+
+        <!-- Konten -->
+        <div class="content" id="about">
+            <h2>Selamat datang di Website Kami</h2>
+            <p>Website ini dirancang dengan penuh warna dan menggunakan layout yang responsif, sehingga cocok untuk berbagai perangkat.</p>
+
+            <h3>Fitur Utama:</h3>
+            <ul>
+                <li>Desain responsif untuk semua perangkat</li>
+                <li>Menu navigasi yang mudah digunakan</li>
+                <li>Sidebar dengan menu interaktif</li>
+                <li>Efek hover dan transisi</li>
+            </ul>
+            
+            <p>Website ini menggunakan gradasi warna yang indah untuk memberikan kesan yang segar dan dinamis bagi pengunjungnya.</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Website Colorfull | <a href="mailto:contact@website.com">Hubungi Kami</a></p>
+    </footer>
+
+</body>
+</html>
+
